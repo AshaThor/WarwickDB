@@ -1,6 +1,7 @@
 CREATE DATABASE mycompany;
 USE mycompany;
 CREATE TABLE dept (deptno int, dname VARCHAR(20) NOT NULL, loc VARCHAR(20), PRIMARY KEY (deptno));
+/*Issues were lacking primary key and dept was a char*/
 
 CREATE TABLE emp (
 empno INT (4) NOT NULL,
